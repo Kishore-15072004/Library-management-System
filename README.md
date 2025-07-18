@@ -4,12 +4,12 @@ This is a simple Java-based Library Management System that allows users to add, 
 
 ## Project Structure
 
-- `src/org/LibraryManagent/app/`
-  - [`LibraryManagement.java`](src/org/LibraryManagent/app/LibraryManagement.java): Interface defining library operations.
-  - [`ImplementLibraryManagement.java`](src/org/LibraryManagent/app/ImplementLibraryManagement.java): Implementation of library operations using JDBC.
-  - [`ProceedManagement.java`](src/org/LibraryManagent/app/ProceedManagement.java): Factory for obtaining a `LibraryManagement` instance.
-- `src/org/libusage/app/`
-  - [`UserLogic1.java`](src/org/libusage/app/UserLogic1.java): Main class providing a menu-driven CLI for library operations.
+- `LibraryManagent/app/`
+  - [`LibraryManagement.java`](LibraryManagent/app/LibraryManagement.java): Interface defining library operations.
+  - [`ImplementLibraryManagement.java`](LibraryManagent/app/ImplementLibraryManagement.java): Implementation of library operations using JDBC.
+  - [`ProceedManagement.java`](LibraryManagent/app/ProceedManagement.java): Factory for obtaining a `LibraryManagement` instance.
+- `libusage/app/`
+  - [`UserLogic1.java`](libusage/app/UserLogic1.java): Main class providing a menu-driven CLI for library operations.
 
 ## Requirements
 
